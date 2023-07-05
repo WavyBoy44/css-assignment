@@ -13,6 +13,11 @@ Task 1:  Targeting Elements by Tag Name + Border
 - Select all 'p' tags and change the font-size to 16px
 - Finally, add a border around all p elements with a 1px solid line of any color you choose
 */
+p{
+  font-size: 16px;
+  border: 1px solid black;
+}
+
 
 
 /*
@@ -23,6 +28,10 @@ Task 2:  Targeting Elements by Class + Padding
 - Give it 20px of padding - note that the background color 'grows' around the text
 */
 
+.navbar{
+  padding: 20px;
+  background-color: aquamarine;
+}
 
 
 /*
@@ -31,6 +40,11 @@ Task 3:  Targeting Elements by ID + Margin
 - Below this comment, target that element by its ID and give it a border radius of 2em
 - Finally, add 15px of margin to the bottom of that element. Note that it pushes the other inputs down
 */
+
+#name{
+  border-radius: 2em;
+  margin: 0 0 15px 0;
+}
 
 
 /*
@@ -41,6 +55,10 @@ Task 4:  Targeting Elements by Descendant Selectors
   hyperlinks)
 */
 
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
 
 
 /* End of Section 1: Selectors in CSS */
@@ -53,6 +71,10 @@ Task 4:  Targeting Elements by Descendant Selectors
 - Give it 5px of padding as well to space them out
 */
 
+.inline-block{
+  display: inline-block;
+  padding: 5px;
+}
 
 
 /* Task 2: position: relative
@@ -61,6 +83,13 @@ Task 4:  Targeting Elements by Descendant Selectors
 - Give it text-align: center to make the text centered on your page
 */
 
+.hero{
+  position: relative;
+  text-align: center;
+  top: 0;
+  bottom: 100px;
+}
+
 
 /* Task 3: Display Grid
 - Change the display property of the .features class to "grid"
@@ -68,6 +97,11 @@ Task 4:  Targeting Elements by Descendant Selectors
 - Create a gap of 20px using the 'gap' property
 */
 
+.features{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
 
 /* Task 4: Position Fixed 
 - Change the positioning of the footer section to "fixed" 
@@ -75,6 +109,10 @@ Task 4:  Targeting Elements by Descendant Selectors
 - Note that wherever you scroll on the page, it remains fixed on your viewport! 
 */
 
+footer{
+  position: fixed;
+  bottom: 0;
+}
 
 /* End of Section 2: Display and Positioning in CSS */
  
